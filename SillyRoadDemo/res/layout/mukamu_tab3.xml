@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ahhhhha"/>
+    <ImageView 
+        android:id="@+id/mukamu_tab3_picture1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:background="@drawable/mukamu_picture01"/>
+    <ImageView 
+        android:id="@+id/mukamu_tab3_picture2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mukamu_tab3_picture1"
+        android:background="@drawable/mukamu_picture03"/>
+    "
+</RelativeLayout>

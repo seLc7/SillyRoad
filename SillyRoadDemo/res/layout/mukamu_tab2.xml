@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mukamu_tab2_relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/mukamu_tab2_linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:gravity="center_horizontal" >
+
+        <VideoView
+            android:id="@+id/mukamu_video_view"
+            android:layout_width="wrap_content"
+            android:layout_height="550dp"
+            android:background="#00000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/mukamu_tab2_linear1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mukamu_start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放" />
+
+        <Button
+            android:id="@+id/mukamu_pause_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂停" 
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/mukamu_resume_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继续" 
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/mukamu_stop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止" 
+            android:enabled="false"/>
+    </LinearLayout>
+
+</RelativeLayout>
